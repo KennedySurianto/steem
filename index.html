@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steem - Game Distribution Platform</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body { background-color: #1b2838; color: white; }
+        .navbar { background-color: #171a21; }
+        .game-card { transition: transform 0.3s; }
+        .game-card:hover { transform: scale(1.05); }
+        .carousel img { border-radius: 15px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Steem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Popular Games</h2>
+        <div id="popularGamesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/D8mYIXWja8knuqYlwqcqVpi1.jpg" class="d-block w-100" alt="Elden Ring">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053" class="d-block w-100" alt="The Forest">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/ss_97287cd84684ed944ada62b14185c25d985f13fa.1920x1080.jpg?t=1739520423" class="d-block w-100" alt="Marvel Rivals">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#popularGamesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#popularGamesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Featured Games</h2>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card game-card bg-dark text-white">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/ss_97287cd84684ed944ada62b14185c25d985f13fa.1920x1080.jpg?t=1739520423" class="card-img-top" alt="Game 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Marvel Rivals</h5>
+                        <p class="card-text">A fast-paced, team-based shooter featuring iconic Marvel heroes and villains battling in dynamic environments.</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card game-card bg-dark text-white">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053" class="card-img-top" alt="Game 2">
+                    <div class="card-body">
+                        <h5 class="card-title">The Forest</h5>
+                        <p class="card-text">A survival horror game where players must build, craft, and fight against cannibalistic mutants after a plane crash in a mysterious forest.</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card game-card bg-dark text-white">
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/D8mYIXWja8knuqYlwqcqVpi1.jpg" class="card-img-top" alt="Game 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Elden Ring</h5>
+                        <p class="card-text">An expansive open-world action RPG by FromSoftware, blending deep lore, challenging combat, and breathtaking exploration in the Lands Between.</p>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="text-center py-3 mt-4" style="background-color: #171a21;">
+        <p>© 2025 Steem. All rights reserved.</p>
+    </footer>
+</body>
+</html>
