@@ -1,0 +1,58 @@
+{
+    "games": [
+        {
+            "title": "Marvel Rivals",
+            "description": "A fast-paced, team-based shooter featuring iconic Marvel heroes and villains battling in dynamic environments.",
+            "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/ss_97287cd84684ed944ada62b14185c25d985f13fa.1920x1080.jpg?t=1739520423",
+            "price": "$59.99"
+        },
+        {
+            "title": "The Forest",
+            "description": "A survival horror game where players must build, craft, and fight against cannibalistic mutants after a plane crash in a mysterious forest.",
+            "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+            "price": "$19.99"
+        },
+        {
+            "title": "Elden Ring",
+            "description": "An expansive open-world action RPG by FromSoftware, blending deep lore, challenging combat, and breathtaking exploration in the Lands Between.",
+            "image": "https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/D8mYIXWja8knuqYlwqcqVpi1.jpg",
+            "price": "$49.99"
+        },
+        {
+            "title": "Cyberpunk 2077",
+            "description": "A futuristic open-world RPG set in the dystopian Night City, offering deep story-driven gameplay and intense action.",
+            "image": "https://digitalalliance.co.id/wp-content/uploads/2022/02/cyberpunk-2077.jpg",
+            "price": "$39.99"
+        },
+        {
+            "title": "Red Dead Redemption 2",
+            "description": "A stunning open-world western adventure featuring an immersive story and expansive exploration.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFDaK0FMpC86IgLGtEHek7KTwgpyy2qyMEGQ&s",
+            "price": "$59.99"
+        },
+        {
+            "title": "God of War Ragnarok",
+            "description": "A Norse mythology-based action RPG following Kratos and Atreus on their journey through the Nine Realms.",
+            "image": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg",
+            "price": "$69.99"
+        },
+        {
+            "title": "Hogwarts Legacy",
+            "description": "An open-world action RPG set in the Harry Potter universe, allowing players to experience life as a student at Hogwarts.",
+            "image": "https://store-images.s-microsoft.com/image/apps.63402.13814785456466922.9a472702-8fc7-4125-b613-8234035829e7.7101d066-d10b-4116-a7c3-e101650a89f3?h=862&format=jpg",
+            "price": "$59.99"
+        },
+        {
+            "title": "Assassin's Creed Valhalla",
+            "description": "A Viking-themed action RPG where players explore England and build their Norse settlement.",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2208920/capsule_616x353.jpg?t=1736257857",
+            "price": "$49.99"
+        },
+        {
+            "title": "Resident Evil 4 Remake",
+            "description": "A reimagined version of the classic survival horror game with modern visuals and improved gameplay mechanics.",
+            "image": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/BiS5QP6h4506JHyJlZlVzK9D.jpg",
+            "price": "$59.99"
+        }
+    ]
+}
