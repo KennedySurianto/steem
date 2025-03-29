@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steem</title>
+    <title>Game Detail</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -30,31 +30,15 @@
     </nav>
 
     <div class="container mt-5">
-        <h2 class="text-center mb-3">Popular Games</h2>
-        <div id="popularGamesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-            
-            <!-- Carousel Inner (Dynamic Content will be inserted by JavaScript) -->
-            <div class="carousel-inner">
-                <!-- Games will be dynamically inserted here -->
+        <div class="row">
+            <div class="col-md-6">
+                <img id="gameImage" class="img-fluid" alt="Game Image">
             </div>
-    
-            <button class="carousel-control-prev" type="button" data-bs-target="#popularGamesCarousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#popularGamesCarousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>      
-
-    <div class="container mt-5">
-        <h2 class="text-center mb-3">Featured Games</h2>
-        <div class="row mt-3" id="game-list">
-            <!-- Games will be loaded here dynamically -->
+            <div class="col-md-6">
+                <h2 id="gameTitle"></h2>
+                <p id="gameDescription"></p>
+                <p id="gamePrice" class="text-success fw-bold"></p>
+            </div>
         </div>
     </div>
 
@@ -62,7 +46,7 @@
         <p>© 2025 Steem. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="game-detail.js"></script>
 </body>
 
 </html>

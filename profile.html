@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Steem</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fs-1" href="index.html">Steem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+                    <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <!-- User Profile Header -->
+        <div class="row mb-4">
+            <div class="col-md-4 text-center">
+                <img src="https://s.yimg.com/ny/api/res/1.2/4CLcnItlVjsUUiKCpScKkQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/aol_yahoo_sports_800/4e76076f910a4a02d1bd5980967c39b8" class="rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Profile Picture">
+            </div>
+            <div class="col-md-8">
+                <h2>Username: <strong>gamer123</strong></h2>
+                <p>Email: <strong>gamer123@steem.com</strong></p>
+                <p>Member since: <strong>January 2023</strong></p>
+                <button class="btn btn-primary">Edit Profile</button>
+            </div>
+        </div>
+
+        <!-- Recent Activity Section -->
+        <div id="recent-activity-section">
+            <h3 class="mb-3">Recent Activity</h3>
+            <div class="card mb-3">
+                <div class="card-header">
+                    <strong>Marvel Rivals - Best Characters?</strong>
+                </div>
+                <div class="card-body">
+                    <p>Posted by <strong>gamer123</strong> on 2025-03-28</p>
+                    <p class="card-text">I'm loving Marvel Rivals! Which characters do you think are the best in the
+                        game?</p>
+                    <a href="#" class="btn btn-link">View Discussion</a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-header">
+                    <strong>The Forest - Surviving the Night</strong>
+                </div>
+                <div class="card-body">
+                    <p>Posted by <strong>survivalPro</strong> on 2025-03-27</p>
+                    <p class="card-text">What are your tips for surviving your first night in The Forest?</p>
+                    <a href="#" class="btn btn-link">View Discussion</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Account Settings Section -->
+        <div id="account-settings-section" class="mt-5">
+            <h3 class="mb-3">Account Settings</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Change Password
+                    <button class="btn btn-warning btn-sm">Change</button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Manage Subscriptions
+                    <button class="btn btn-warning btn-sm">Manage</button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Notification Preferences
+                    <button class="btn btn-warning btn-sm">Edit</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="text-center py-3 mt-4" style="background-color: #171a21;">
+        <p>© 2025 Steem. All rights reserved.</p>
+    </footer>
+
+    <script src="profile.js"></script>
+</body>
+
+</html>

@@ -25,7 +25,7 @@ fetch('games.json')
                         <h5 class="card-title">${game.title}</h5>
                         <p class="card-text">${game.description}</p>
                         <p class="card-text text-success"><strong>${game.price}</strong></p>
-                        <button class="btn btn-primary">Buy Now</button>
+                        <a href="game-detail.html?game=${encodeURIComponent(game.title)}" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
             `;

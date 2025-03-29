@@ -1,0 +1,42 @@
+{
+    "threads": [
+        {
+            "id": 1,
+            "title": "Marvel Rivals - Best Characters?",
+            "user": "gamer123",
+            "date": "2025-03-28",
+            "content": "I'm loving Marvel Rivals! Which characters do you think are the best in the game?",
+            "replies": [
+                {
+                    "user": "player456",
+                    "date": "2025-03-28",
+                    "content": "I think Thor and Iron Man are the best. They have great abilities!"
+                },
+                {
+                    "user": "heroMaster",
+                    "date": "2025-03-29",
+                    "content": "I prefer Black Panther for his agility. He's a beast in close combat!"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Forest - Surviving the Night",
+            "user": "survivalPro",
+            "date": "2025-03-27",
+            "content": "What are your tips for surviving your first night in The Forest?",
+            "replies": [
+                {
+                    "user": "woodCrafty",
+                    "date": "2025-03-28",
+                    "content": "Definitely build a shelter as soon as you can. You'll need protection from the cannibals!"
+                },
+                {
+                    "user": "survivalFan",
+                    "date": "2025-03-29",
+                    "content": "Don't forget to light a fire! It keeps the mutants away at night."
+                }
+            ]
+        }
+    ]
+}
